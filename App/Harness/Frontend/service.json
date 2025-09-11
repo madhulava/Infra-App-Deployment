@@ -27,8 +27,8 @@
     {
       "targetGroupArn": "<+serviceVariables.targetGroupArn>",
       "containerName": "<+serviceVariables.containername>",
-      //"containerPort": "<+serviceVariables.containerport>"
-      "containerPort": 5000
+      "containerPort": "<+serviceVariables.containerport>"
+      //"containerPort": 5000
     }
   ]
 }
