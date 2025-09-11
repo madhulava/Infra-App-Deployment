@@ -10,7 +10,8 @@
       "name": "<+serviceVariables.containername>",
       "image": "<+artifact.image>",
       "portMappings": [
-        {"containerPort": "<+serviceVariables.containerport>"}
+        //{"containerPort": "<+serviceVariables.containerport>"}
+        {"containerPort": 5000}
       ],
       "logConfiguration": {
           "logDriver": "awslogs",
